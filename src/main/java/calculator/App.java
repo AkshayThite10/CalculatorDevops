@@ -1,9 +1,10 @@
+// package calculator;
 import java.util.*; 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 public class App {
 	private static final Logger logger = LogManager.getLogger(App.class);
-	public static void public static void main(String[] args) {
+	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int option,flag,num2;
 		flag = 0;
@@ -52,7 +53,7 @@ public class App {
 			    	System.out.println("Natural log\n");
 			    	System.out.println("Enter a number : ");
 			    	num1 = sc.nextDouble();
-			    	if(num1)
+			    	if(num1<=0)
 			    	{
 			    		System.out.println("Enter valid input\n");
 			    	}
