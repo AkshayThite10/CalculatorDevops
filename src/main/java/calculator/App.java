@@ -16,13 +16,14 @@ public class App {
 			System.out.println("1. Square root");
 			System.out.println("2. Factorial");
 			System.out.println("3. Natural log");
-			System.out.println("4. Power\n");
+			System.out.println("4. Power");
+			System.out.println("5. Exit\n")
 			System.out.println("Enter your choice : ");
 			option = sc.nextInt();
 			switch(option)
 			{
 			    case 1:
-			    	System.out.println("Square root\n");
+			    	System.out.println("Square root");
 			    	System.out.println("Enter a number : ");
 			    	num1 = sc.nextDouble();
 			    	if(num1<0)
@@ -36,12 +37,12 @@ public class App {
 			    break;
 
 			    case 2:
-			    	System.out.println("Factorial\n");
+			    	System.out.println("Factorial");
 			    	System.out.println("Enter a number");
 			    	num2 = sc.nextInt();
 			    	if(num2<0)
 			    	{
-			    		System.out.println("Enter valid input\n");
+			    		System.out.println("Enter valid input");
 			    	}
 			    	else
 			    	{
@@ -50,7 +51,7 @@ public class App {
 			    break;
 
 			    case 3:
-			    	System.out.println("Natural log\n");
+			    	System.out.println("Natural log");
 			    	System.out.println("Enter a number : ");
 			    	num1 = sc.nextDouble();
 			    	if(num1<=0)
@@ -64,7 +65,7 @@ public class App {
 			    break;
 
 			    case 4:
-			    	System.out.println("Power\n");
+			    	System.out.println("Power");
 			    	System.out.println("Enter a number : ");
 			    	num1 = sc.nextDouble();
 			    	System.out.println("Enter exponent : ");
