@@ -6,17 +6,17 @@ import org.junit.Test;
 public class AppTest {
 	@Test
 	    public void test_squareRoot() {
-	        double a = 25.0;
-	        double expectedResult = 5.0;
-	        double result = App.squareRoot(a);
+	        double a = 81.0;
+	        double expectedResult = 9.0;
+	        double result = App.sqroot(a);
 	        Assert.assertEquals(expectedResult, result, 0.0f);
 	    }
 	
 	@Test
 	    public void test_factorial() {
-	        int a = 5;
-	        int expectedResult = 120;
-	        int result = App.factorial(a);
+	        int a = 4;
+	        int expectedResult = 24;
+	        int result = App.fact(a);
 	        Assert.assertEquals(expectedResult, result);
 	    }
 		
@@ -24,16 +24,16 @@ public class AppTest {
 	    public void test_naturalLog() {
 	        double a = 2.718;
 	        double expectedResult = 1.0;
-	        double result = App.naturalLog(a);
+	        double result = App.natlog(a);
 	        Assert.assertEquals(expectedResult, result, 0.2f);
 	    }
 	
 	@Test
 	    public void test_power() {
 	        double a = 2.0;
-			double b = 5.0;
-	        double expectedResult = 32.0;
-	        double result = App.power(a,b);
+			double b = 10.0;
+	        double expectedResult = 1024.0;
+	        double result = App.powerfxn(a,b);
 	        Assert.assertEquals(expectedResult, result, 0.0f);
 	    }
 	
