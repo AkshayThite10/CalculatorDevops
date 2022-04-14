@@ -17,7 +17,7 @@ public class App {
 			System.out.println("2. Factorial");
 			System.out.println("3. Natural log");
 			System.out.println("4. Power");
-			System.out.println("5. Exit\n")
+			System.out.println("5. Exit\n");
 			System.out.println("Enter your choice : ");
 			option = sc.nextInt();
 			switch(option)
